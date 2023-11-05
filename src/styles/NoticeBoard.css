@@ -9,7 +9,7 @@
   
   .white-square {
     margin-top: 400px;
-    width: 1243px;
+    width: 1100px;
     height: 772px;
     background: white;
     border-radius: 20px;
@@ -18,18 +18,63 @@
   
   .white-square img {
     position: relative;
-    top: -230px;
-    left: -100px;
-    width: 70px;
-    height: 70px;
+    top: -250px;
+    left: -10px;
+    width: 60px;
+    height: 60px;
   }
 
   .text-notice {
-    position: absolute;
-    top: 182px; /* 텍스트를 원하는 위치로 조절 */
-    left: 210px; /* 텍스트를 원하는 위치로 조절 */
+    position: relative;
+    top: -315px; /* 텍스트를 원하는 위치로 조절 */
+    left: 60px; /* 텍스트를 원하는 위치로 조절 */
     font-size: 40px; /* 원하는 글꼴 크기로 조절 */
     font-weight: bolder;
     color: #000; /* 텍스트 색상 설정 */
     padding: 5px; /* 텍스트 주위에 여백 추가 (옵션) */
   }
+
+  .searchbar-location {
+    position: relative;
+    top: -260px
+  }
+
+  .info {
+    margin-top: -190px;
+    display: flex;
+    font-weight: bold;
+    padding: 30px;
+    color: #000;
+  }
+  
+  .info p {
+    font-size: 17px; /* 원하는 글꼴 크기로 조절 */
+  }
+
+ 
+ 
+  .info p:first-child {
+    margin-left: 15px;
+    width: 650px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+  }
+
+ 
+
+  .info p:nth-child(2){
+    width: 170px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+  }
+
+  .info p:nth-child(3){
+    width: 170px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    margin-right: 15px;
+  }
+
+  
