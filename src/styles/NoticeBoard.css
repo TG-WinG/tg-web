@@ -120,4 +120,71 @@ li {
   }
 
 
+  .modal {
+    margin-left: 19px;
+    margin-bottom: 15px;
+    width: 985px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .modal-content h2 {
+    text-align: center; /* 가운데 정렬 */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.4);
+    width: 920px;
+    margin: 0 auto; /* 수평 가운데 정렬 */
+  }
+
+  .modal-noticeinfo {
+    display: flex;
+    
+  }
+
+  .modal-noticeinfo p:first-child {
+    display: flex;
+    width: 490px;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(134, 134, 134, 0.4);
+    padding-bottom: 20px;
+    margin-right: 20px;
+  }
+
+ 
+
+  .modal-noticeinfo p:nth-child(2){
+    display: flex;
+    width: 185px;
+    border-bottom: 1px solid rgb(134, 134, 134, 0.4);
+    padding-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .modal-noticeinfo p:nth-child(3){
+    display: flex;
+    width: 200px;
+    border-bottom: 1px solid rgb(134, 134, 134, 0.4);
+    padding-bottom: 20px;
+    margin-right: 23px;
+    
+  }
+
+  .modal-noticecontent {
+    display: flex;
+    flex-direction: column; /* 요소들을 세로로 배치 */
+    align-items: center; /* 가운데 정렬 */
+    padding: 30px;
+  }
+
+
+
+
+
+
   
