@@ -25,7 +25,24 @@ function NoticeBoard() {
         views: 75,
         date: '2023-11-03',
       },
-      // 추가 공지 데이터...
+      {
+        id: 1,
+        title: '첫 번째 공지',
+        views: 100,
+        date: '2023-11-04',
+      },
+      {
+        id: 2,
+        title: '두 번째 공지',
+        views: 75,
+        date: '2023-11-03',
+      },
+      {
+        id: 3,
+        title: '세 번째 공지',
+        views: 75,
+        date: '2023-11-03',
+      },
     ];
 
     setNotices(temporaryData);
@@ -40,8 +57,10 @@ function NoticeBoard() {
         <ul>
           {notices.map(notice => (
             <li key={notice.id}>
-              <div>
-                <p>{notice.title} 조회수: {notice.views} 작성 날짜: {notice.date}</p>
+              <div className='notice-info'>
+                <p>{notice.title} </p> 
+                <p> {notice.views} </p> 
+                <p> {notice.date}</p>
               </div>
             </li>
           ))}

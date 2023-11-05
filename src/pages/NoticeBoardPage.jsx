@@ -2,6 +2,7 @@ import React from 'react';
 import imgfile from '../assets/tgmark.png';
 import "../styles/NoticeBoard.css";
 import SearchBar from '../components/SearchBar';
+import NoticeBoard from '../components/NoticeBoard';
 
 function NoticeBoardPage() {
   return (
@@ -15,7 +16,7 @@ function NoticeBoardPage() {
           <p>조회수</p>
           <p>작성일</p>
         </div>
-        
+        <NoticeBoard/>
       </div>
     </div>
   );
