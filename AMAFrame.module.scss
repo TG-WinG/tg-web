@@ -1,0 +1,159 @@
+.frameTwelve {
+  padding: 0 463px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameEleven {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 1087px;
+}
+.frameTen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 624px;
+}
+.frameNine {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 0 31px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 609px;
+  width: 561px;
+}
+.frameSix {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 513px;
+  width: 561px;
+}
+.frameFour {
+  margin-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 408px;
+  width: 559px;
+}
+.tGWing {
+  height: 80px;
+  width: 309px;
+  font-family: "Koulen";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.frameThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 289px;
+  width: 559px;
+}
+.frame {
+  background-color: rgba(247, 246, 246, 1);
+  padding: 17px 19px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 45px;
+  width: 521px;
+  &:not(:last-of-type) {
+    margin-bottom: 26px;
+  }
+}
+. {
+  font-family: "Do Hyeon";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(142, 142, 142, 1);
+  text-align: center;
+}
+.frameTwo {
+  background-color: rgba(247, 246, 246, 1);
+  margin-bottom: 26px;
+  padding: 16px 19px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 47px;
+  width: 521px;
+}
+. {
+  font-family: "Do Hyeon";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(142, 142, 142, 1);
+}
+.frameFive {
+  background-color: rgba(136, 31, 31, 1);
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 14px 122px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 51px;
+  width: 315px;
+}
+. {
+  height: 36px;
+  width: 313px;
+  font-family: "Do Hyeon";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  text-align: center;
+}
+.frameEight {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 308px;
+}
+. {
+  font-family: "Do Hyeon";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(142, 142, 142, 1);
+  text-align: center;
+  margin-right: 48px;
+}
+.frameSeven {
+  display: flex;
+  align-items: flex-start;
+  width: 161px;
+  height: 30px;
+}
+. {
+  width: 1px;
+  height: 22px;
+  background-color: rgba(142, 142, 142, 1);
+  margin-right: 44px;
+}
