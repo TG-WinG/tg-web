@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Frame.module.scss';
+import styles from './AMAFrame.module.scss';
 
 const Frame = (
 ) => {
