@@ -1,9 +1,0 @@
-import React from 'react';
-import styles from './AMAFrame.module.scss';
-
-const Frame = (
-) => {
-  return (<div className={styles.frameTwelve}><div className={styles.frameEleven}><div className={styles.frameTen}><div className={styles.frameNine}><div className={styles.frameSix}><div className={styles.frameFour}><p className={styles.tGWing}>T.G.WinG</p><div className={styles.frameThree}><div className={styles.frame}><p className={styles.}>아이디</p></div><div className={styles.frameTwo}><p className={styles.}>비밀번호</p></div><div className={styles.frame}><p className={styles.}>비밀번호 확인</p></div></div></div><div className={styles.frameFive}><p className={styles.}>회원가입</p></div></div><div className={styles.frameEight}><p className={styles.}>아이디 찾기 </p><div className={styles.frameSeven}><div className={styles.}/><p className={styles.}>비밀번호 찾기 </p></div></div></div></div></div></div>);
-};
-
-export default Frame;
