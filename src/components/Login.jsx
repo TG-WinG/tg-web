@@ -1,4 +1,3 @@
-// Login.js
 import React, { useState } from "react";
 import "../styles/Register.css";
 
@@ -20,10 +19,9 @@ function Login({ title }) {
   };
 
   return (
-    <div className="frame1" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <div className={`frame`}>
-        <h1 className="text-wrapper">{title}</h1>
-        <form onSubmit={handleLogin}>
+    <div className={`frame`}>
+      <h1 className="text-wrapper">{title}</h1>
+      <form onSubmit={handleLogin}>
           <ul>
             <li>
               <div className="input-bar">
@@ -50,22 +48,21 @@ function Login({ title }) {
               </div>
             </li>
             <li>
-              <button type="submit">로그인</button>
+              <button className="button" type="submit">로그인</button>
             </li>
           </ul>
           {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
         </form>
-        <ul>
+      <ul>
           <li>
-            <button>
+            <button className="button">
               <a href="/find_id">아이디 찾기</a>
             </button>
-            <button>
+            <button className="button">
               <a href="/find_pw">비밀번호 찾기</a>
             </button>
           </li>
         </ul>
-      </div>
     </div>
   );
 };
