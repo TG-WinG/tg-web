@@ -22,47 +22,39 @@ function Login({ title }) {
     <div className={`frame`}>
       <h1 className="text-wrapper">{title}</h1>
       <form onSubmit={handleLogin}>
-          <ul>
-            <li>
-              <div className="input-bar">
-                <input
-                  type="text"
-                  placeholder="아이디"
-                  classname="input-in"
-                  name="id"
-                  value={id}
-                  onChange={(e) => setId(e.target.value)}
-                />
-              </div>
-            </li>
-            <li>
-              <div className="input-bar">
-                <input
-                  type="password"
-                  placeholder="비밀번호"
-                  classname="input-in"
-                  name="pw"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-            </li>
-            <li>
-              <button className="button" type="submit">로그인</button>
-            </li>
-          </ul>
-          {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-        </form>
-      <ul>
-          <li>
-            <button className="button">
-              <a href="/find_id">아이디 찾기</a>
-            </button>
-            <button className="button">
-              <a href="/find_pw">비밀번호 찾기</a>
-            </button>
-          </li>
-        </ul>
+
+        <div className="input-bar">
+          <input
+            type="text"
+            placeholder="아이디"
+            className="search-input"
+            name="id"
+            value={id}
+            onChange={(e) => setId(e.target.value)}
+          />
+        </div>
+        <div className="input-bar">
+          <input
+            type="password"
+            placeholder="비밀번호"
+            className="search-input"
+            name="pw"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <button className="login-button" type="submit">로그인</button>
+
+        {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+      </form>
+      <li>
+        <button className="button">
+          <a href="/find_id">아이디 찾기</a>
+        </button>
+        <button className="button">
+          <a href="/find_pw">비밀번호 찾기</a>
+        </button>
+      </li>
     </div>
   );
 };

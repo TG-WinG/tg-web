@@ -27,78 +27,51 @@ function Frame1({ title }) {
         <h1 className="text-wrapper">T.G.WinG</h1>
         <h1 className="text-wrapper">Register</h1>
         <form onSubmit={handleSignup}>
-          <ul>
-            <li className="input-bar">
-              <input
-                type="text"
-                placeholder="아이디"
-                classname="search-input"
-                value={id}
-                onChange={(e) => setId(e.target.value)}
-              />
-              <input
-                type="text"
-                placeholder="아이디"
-                className="search-input"
-                name="id"
-                value={id}
-                onChange={(e) => setId(e.target.value)}
-              />
-            </li>
-            <li className="input-bar">
-              <input
-                type="text"
-                placeholder="비밀번호"
-                className="search-input"
-                name="pw"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <input
-                type="password"
-                placeholder="비밀번호"
-                classname="search-input"
-                name="pw"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </li>
-            <li className="input-bar">
-              <input
-                type="text"
-                placeholder="비밀번호 확인"
-                className="search-input"
-                name="pw_confirm"
-                value={passwordCheck}
-                onChange={(e) => setPasswordCheck(e.target.value)}
-              />
-              <input
-                type="password"
-                placeholder="비밀번호 확인"
-                classname="search-input"
-                name="pw_confirm"
-                value={passwordCheck}
-                onChange={(e) => setPasswordCheck(e.target.value)}
-              />
-            </li>
-            <li>
-              <button className="button" type="submit">회원가입</button>
-            </li>
-          </ul>
+          <li className="input-bar">
+            <input
+              type="text"
+              placeholder="아이디"
+              className="search-input"
+              name="id"
+              value={id}
+              onChange={(e) => setId(e.target.value)}
+            />
+          </li>
+          <li className="input-bar">
+            <input
+              type="text"
+              placeholder="비밀번호"
+              className="search-input"
+              name="pw"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </li>
+          <li className="input-bar">
+            <input
+              type="text"
+              placeholder="비밀번호 확인"
+              className="search-input"
+              name="pw_confirm"
+              value={passwordCheck}
+              onChange={(e) => setPasswordCheck(e.target.value)}
+            />
+          </li>
+          <li>
+            <button className="button" type="submit">회원가입</button>
+          </li>
           {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
         </form>
-        <ul>
-          <div>
-            <li>
-              <button className="button">
-                <a href="/find_id">아이디 찾기</a>
-              </button>
-              <button className="button">
-                <a href="/find_pw">비밀번호 찾기</a>
-              </button>
-            </li>
-          </div>
-        </ul>
+        <div>
+          <li>
+            <button className="button">
+              <a href="/find_id">아이디 찾기</a>
+            </button>
+            <button className="button">
+              <a href="/find_pw">비밀번호 찾기</a>
+            </button>
+          </li>
+        </div>
       </div>
     </div>
   );
