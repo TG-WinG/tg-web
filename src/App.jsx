@@ -1,12 +1,16 @@
-import { StrictMode } from "react";
-import NoticeBoard from "./components/NoticeBoard";
-import NoticeBoardPage from "./pages/NoticeBoardPage";
+import React from 'react';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import NoticeBoardPage from './pages/NoticeBoardPage';
 
-export function App() {
-	return (
-		<StrictMode>
-			<NoticeBoardPage/>
-			{/* <h1>Hello, world!</h1> */}
-		</StrictMode>
-	);
+function App() {
+  return (
+    <div className="App">
+      <LoginPage />
+      <RegisterPage />
+      <NoticeBoardPage />
+    </div>
+  );
 }
+
+export default App;
