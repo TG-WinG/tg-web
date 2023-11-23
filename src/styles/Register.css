@@ -27,14 +27,6 @@ li {
   border: 1px solid rgba(142, 142, 142, 0.50);
 }
 
-.white-square img {
-  position: relative;
-  top: -250px;
-  left: -10px;
-  width: 60px;
-  height: 60px;
-}
-
 .frame {
   border: 1px solid #00ff4c;
   padding: 20px;

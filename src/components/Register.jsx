@@ -24,7 +24,7 @@ function Frame1({ title }) {
   return (
     <div className="frame1">
       <div className={`frame`}>
-        <h1 className="text-wrapper">T.G.WinG</h1>
+        <h1 className="text-wrapper">T.G.WinG</h1>2
         <h1 className="text-wrapper">Register</h1>
         <form onSubmit={handleSignup}>
           <li className="input-bar">
